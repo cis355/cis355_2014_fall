@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Michael Coppolino - Entry Form</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	</head>
+<body>
+<br>
+<div class="col-md-4">
+	<form name='basic' method='POST' action='table08.php' onSubmit='return validate();'>
+		<table class="table table-condensed" style="border: 1px solid #dddddd; border-radius: 5px; box-shadow: 2px 2px 10px;">
+			<tr><td colspan="2" style="text-align: center; border-radius: 5px; color: white; background-color:#333333;"><h2>Bike Description Form</h2></td></tr>
+			<tr><td>Your Name: </td><td><input type='edit' name='name' value='' size='20'></td></tr>
+			<tr><td>Your Zip Code: </td><td><input type='edit' name='zip' value='' size='20'></td></tr>
+			<tr><td>Bike Model: </td><td><input type='edit' name='model' value='' size='30'></td></tr>
+			<tr><td>Wheel Size: </td><td><input type='edit' name='wheel' value='' size='20'></td></tr>
+			<tr><td>Bike Color: </td><td><input type='edit' name='color' value='' size='30'></td></tr>
+			<tr><td>You Paid: </td><td><input type='edit' name='price' value='' size='20'></td></tr>
+			<tr><td>Bike Description: </td><td><textarea style="resize: none;" name="descript" cols="40" rows="3"></textarea></td></tr>
+			<tr><td>You User Id: </td><td><input type='edit' name='user_id' value='' size='3'></td></tr>
+			<tr><td>Your location ID: </td><td><input type='edit' name='location_id' value='' size='3'></td></tr>
+			<tr><td><input type="submit" name="submit" class="btn btn-success" value="Add Entry"></td>
+				<td style="text-align: right;"><input type="reset" class="btn btn-danger" value="Reset Form"></td></tr>
+		</table>
+		
+		<a href="table08.php" class="btn btn-primary">Display Database</a>
+	</form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<?php include 'header.php' ?>
+<?php include 'functions.php' ?>
+<br/>
+	<div style="padding-left: 10%; padding-top: 100px;">
+		<form action="classlist.php" method="POST">
+			<table style="padding: 5px;">
+				<tr><td colspan="2" style="font-family: QuicksandBold; font-size: 35px; padding-bottom: 15px;">Add a Student</td></tr>
+				<tr><td style="font-family: QuicksandBold; font-size:20px; padding: 5px;">First Name: </td><td> <input style="width: 200px; font-size: 15px; border: 1px solid gray; padding: 5px; border-radius:3px" type="text"></td>
+				<tr><td style="font-family: QuicksandBold; font-size:20px; padding: 5px;">Last Name: </td><td> <input style="width: 200px; font-size: 15px; border: 1px solid gray; padding: 5px; border-radius:3px" type="text"></td>
+				<tr colspan="2"><td><br/></td></tr>
+				<tr><td style="font-family: QuicksandBold; font-size:20px; padding: 5px;">Username: </td><td> <input style="width: 200px; font-size: 15px; border: 1px solid gray; padding: 5px; border-radius:3px" type="text"></td><br>
+				<tr><td style="font-family: QuicksandBold; font-size:20px; padding: 5px;">Password: </td><td> <input style="width: 200px; font-size: 15px; border: 1px solid gray; padding: 5px; border-radius:3px" type="password"></td><br>
+				<tr><td colspan="2" style="font-family: QuicksandBold; font-size:20px; padding: 5px;">
+					<br/>
+					<button name="addStudent" type="submit" style="width: 150px; font-size: 20px; color: white; background-color: green; border: 2px solid gray; border-radius: 3px; padding: 5px;">Submit</button>
+					<button type="reset" style="width: 150px; font-size: 20px; color: white; background-color: red; border: 2px solid gray; border-radius: 3px; padding: 5px; float: right;">Reset</button>
+				</td></tr>
+			</table>
+		</form>
+	</div>
+	
+	<br/>
+	<hr/>
+</body>
+</html>

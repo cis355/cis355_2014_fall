@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<style>
+	@font-face {
+		font-family: Quicksand;
+		src: url("Quicksand-Regular.otf") format("opentype");
+	}
+	@font-face {
+		font-family: QuicksandBold;
+		src: url("Quicksand-Bold.otf") format("opentype");
+	}
+	</style>
+	<title>untitled</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.23.1" />
+	<script src="ckeditor/ckeditor.js"></script>
+</head>
+<body style="font-family: Quicksand;">
+	<div style="box-shadow: 2px 2px 5px #888888; float: left; width: 100%; background-color: #9ADF85; vertical-align: middle; border: 2px solid black; border-radius: 10px; font-size: 64px; font-family: QuicksandBold;">
+		<div style="float:left; padding-left: 10px;">EzLearn LMS</div><div style="float: right;"><img src="book.png" style="width: 80px; vertical-align: middle; padding-right:20px;"></div>
+	</div>
+	
+	<div>
+		Log In to EzLearn<br>
+		Username: <input type="text"><br>
+		Password: <input type="password"><br>
+	</div>

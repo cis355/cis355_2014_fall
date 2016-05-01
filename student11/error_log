@@ -1,0 +1,41 @@
+[01-Sep-2014 02:29:33 UTC] PHP Fatal error:  Function name must be a string in /home/gcorser/public_html/student11/index.php on line 3
+[01-Sep-2014 02:29:43 UTC] PHP Fatal error:  Function name must be a string in /home/gcorser/public_html/student11/index.php on line 3
+[01-Sep-2014 02:29:43 UTC] PHP Fatal error:  Function name must be a string in /home/gcorser/public_html/student11/index.php on line 3
+[01-Sep-2014 02:33:35 UTC] PHP Fatal error:  Function name must be a string in /home/gcorser/public_html/student11/index.php on line 3
+[01-Sep-2014 02:33:37 UTC] PHP Fatal error:  Function name must be a string in /home/gcorser/public_html/student11/index.php on line 3
+[01-Sep-2014 02:33:42 UTC] PHP Fatal error:  Function name must be a string in /home/gcorser/public_html/student11/index.php on line 3
+[01-Sep-2014 02:33:42 UTC] PHP Fatal error:  Function name must be a string in /home/gcorser/public_html/student11/index.php on line 3
+[01-Sep-2014 02:34:40 UTC] PHP Fatal error:  Function name must be a string in /home/gcorser/public_html/student11/index.php on line 3
+[01-Sep-2014 02:34:41 UTC] PHP Fatal error:  Function name must be a string in /home/gcorser/public_html/student11/index.php on line 3
+[01-Sep-2014 02:34:47 UTC] PHP Fatal error:  Function name must be a string in /home/gcorser/public_html/student11/index.php on line 3
+[01-Sep-2014 02:34:47 UTC] PHP Fatal error:  Function name must be a string in /home/gcorser/public_html/student11/index.php on line 3
+[01-Sep-2014 03:10:47 UTC] PHP Fatal error:  Call to undefined function json_last_error_msg() in /home/gcorser/public_html/student11/index.php on line 4
+[01-Sep-2014 03:10:52 UTC] PHP Fatal error:  Call to undefined function json_last_error_msg() in /home/gcorser/public_html/student11/index.php on line 4
+[16-Sep-2014 03:28:07 UTC] PHP Fatal error:  Call to undefined function connect() in /home/gcorser/public_html/student11/index.php on line 101
+[16-Sep-2014 03:29:23 UTC] PHP Fatal error:  Call to undefined function connect() in /home/gcorser/public_html/student11/index.php on line 101
+[16-Sep-2014 03:29:24 UTC] PHP Fatal error:  Call to undefined function connect() in /home/gcorser/public_html/student11/index.php on line 101
+[16-Sep-2014 03:29:25 UTC] PHP Fatal error:  Call to undefined function connect() in /home/gcorser/public_html/student11/index.php on line 101
+[16-Sep-2014 03:29:25 UTC] PHP Fatal error:  Call to undefined function connect() in /home/gcorser/public_html/student11/index.php on line 101
+[16-Sep-2014 03:29:25 UTC] PHP Fatal error:  Call to undefined function connect() in /home/gcorser/public_html/student11/index.php on line 101
+[16-Sep-2014 03:29:25 UTC] PHP Fatal error:  Call to undefined function connect() in /home/gcorser/public_html/student11/index.php on line 101
+[16-Sep-2014 03:29:26 UTC] PHP Fatal error:  Call to undefined function connect() in /home/gcorser/public_html/student11/index.php on line 101
+[16-Sep-2014 03:29:26 UTC] PHP Fatal error:  Call to undefined function connect() in /home/gcorser/public_html/student11/index.php on line 101
+[16-Sep-2014 03:29:26 UTC] PHP Fatal error:  Call to undefined function connect() in /home/gcorser/public_html/student11/index.php on line 101
+[16-Sep-2014 03:30:32 UTC] PHP Fatal error:  Call to undefined function connect() in /home/gcorser/public_html/student11/index.php on line 104
+[18-Sep-2014 00:45:48 UTC] PHP Fatal error:  Call to undefined function print_this_array() in /home/gcorser/public_html/student11/index.php on line 106
+[18-Sep-2014 00:46:40 UTC] PHP Fatal error:  Call to undefined function print_this_array() in /home/gcorser/public_html/student11/index.php on line 106
+[18-Sep-2014 00:46:43 UTC] PHP Fatal error:  Call to undefined function print_this_array() in /home/gcorser/public_html/student11/index.php on line 106
+[18-Sep-2014 00:48:47 UTC] PHP Fatal error:  Call to undefined function print_this_array() in /home/gcorser/public_html/student11/index.php on line 106
+[18-Sep-2014 00:48:59 UTC] PHP Fatal error:  Call to undefined function print_this_array() in /home/gcorser/public_html/student11/index.php on line 106
+[18-Sep-2014 13:05:34 UTC] PHP Fatal error:  Call to undefined function json_endcode() in /home/gcorser/public_html/student11/backEnd.php on line 14
+[18-Sep-2014 13:05:44 UTC] PHP Fatal error:  Call to undefined function json_endcode() in /home/gcorser/public_html/student11/backEnd.php on line 14
+[21-Sep-2014 21:28:11 UTC] PHP Fatal error:  Call to a member function stmt_init() on a non-object in /home/gcorser/public_html/student11/backEnd.php on line 15
+[21-Sep-2014 21:29:38 UTC] PHP Fatal error:  Call to a member function stmt_init() on a non-object in /home/gcorser/public_html/student11/backEnd.php on line 15
+[21-Sep-2014 23:05:28 UTC] PHP Fatal error:  Call to a member function init() on a non-object in /home/gcorser/public_html/student11/functions.php on line 18
+[21-Sep-2014 23:08:08 UTC] PHP Fatal error:  Call to a member function init() on a non-object in /home/gcorser/public_html/student11/functions.php on line 18
+[03-Oct-2014 02:54:22 UTC] PHP Fatal error:  Call to undefined function construct_data_table_from_database_main_pane() in /home/gcorser/public_html/student11/index.php on line 92
+[05-Oct-2014 17:29:58 UTC] PHP Fatal error:  Call to undefined function connect() in /home/gcorser/public_html/student11/index.php on line 149
+[24-Oct-2014 02:12:33 UTC] PHP Fatal error:  Call to undefined function empy() in /home/gcorser/public_html/student11/index.php on line 43
+[28-Oct-2014 23:51:00 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::fetch_array() in /home/gcorser/public_html/student11/add_item.php on line 14
+[28-Oct-2014 23:51:20 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::fetch_array() in /home/gcorser/public_html/student11/add_item.php on line 14
+[28-Oct-2014 23:54:45 UTC] PHP Fatal error:  Call to a member function get_result() on a non-object in /home/gcorser/public_html/student11/add_item.php on line 14

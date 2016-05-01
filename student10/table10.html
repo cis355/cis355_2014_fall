@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="author" content="David Godi">  
+<title>Jet Ski Database</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function submitform(newValue)
+{	
+  document.getElementById('submit_choice').value = newValue;	
+  document.getElementById('basic').submit();
+}
+</script>
+
+</head>
+<body bgcolor="#666666">
+
+<div id = "main"> 
+  <form id='basic' method='Post' action='table10.php'>  
+  <input type='hidden' id='submit_choice' name='submit_choice' value=''>
+  <div id="banner"><h2>Jet Ski</h2></div>
+
+<div id = "tableContainer">   
+  <table>
+    <tr><td>name</td><td><input type='edit' name='name' value='' size=30></td></tr>
+    <tr><td>brand</td><td><input type='edit' name='brand' value='' size=30></td></tr>
+	<tr><td>model</td><td><input type='edit' name='model' value='' size=30></td></tr>
+    <tr><td>year</td><td><input type='edit' name='year' value='' size=4></td></tr>
+	<tr><td>cost</td><td><input type='edit' name='cost' value='' size=10></td></tr>
+    <tr><td>description</td><td><input type='edit' name='descript' value='' size=30></td></tr>
+	<tr><td>location</td><td><input type='edit' name='location' value='' size=30></td></tr>
+	<tr><td>user</td><td><input type='edit' name='user' value='' size=30></td></tr>
+    </table>
+  </div>
+  
+  <div id="navbar">
+<ul class="lnavbar">
+  <li><a href="javascript: submitform('view')" >View</a></li>
+  <li><a href="javascript: submitform('add')" >Add</a></li>
+</ul>
+<ul class="rnavbar">
+  <li><a href="javascript: submitform('signIn')" >Sign In</a></li>
+</ul>
+</div>
+
+</form>  
+</div>
+
+
+        
+</body>
+</html>

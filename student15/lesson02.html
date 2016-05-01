@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lesson02 Form</title>
+</head>
+<style>
+  label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+  }
+  
+  input {
+    display: inline-block;
+    float: left;
+    margin-bottom: 10px;
+  }
+</style>
+<script language="javascript">
+function validate() {
+  var allok = true;
+  document.basic.Submit.disabled="disabled";
+  return true;
+}
+</script>
+<body>
+  <form action="lesson02.php" method="post" name="basic" id="basic" onSubmit="return validate();">
+    <fieldset>
+    <legend>Database Information</legend>
+      <label>Name:</label>
+      <input name="name" type="text" class="required" id="name" size="50">
+      <label>Description:</label>
+      <input name="descrip" type="text" id="descrip" size="50">
+      <label>Make:</label>
+      <input name="make" type="text" id="make" size="50">
+      <label>Model:</label>
+      <input name="model" type="text" id="model" size="50">
+      <label>Price:</label>
+      <input name="price" type="text" id="price" size="50">
+      <label>Condition:</label>
+      <input name="cond" type="text" id="cond" size="50">
+      <label>Title:</label>
+      <input name="title" type="text" id="title" size="50">
+      <label>User ID:</label>
+      <input name="user_id" type="text" id="user_id" size="50">
+	  <label>ZIP Code:</label>
+      <input name="zipcode" type="text" id="zipcode" size="50">
+      <label></label>
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </fieldset>
+  </form>
+</body>
+</html>

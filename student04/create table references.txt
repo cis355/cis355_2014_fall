@@ -1,0 +1,49 @@
+CREATE TABLE item04(item_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+user_id INT NOT NULL,
+descr VARCHAR(20),
+FOREIGN KEY(user_id) REFERENCES user04(user_id));
+
+INSERT INTO item04(user_id, descr) VALUES(1, 'cheese whiz');
+
+CREATE TABLE location04
+(loc_id INT NOT NULL AUTO_INCREMENT, PRIMARY KEY(loc_id),
+loc_name VARCHAR(30));
+
+CREATE TABLE user04(
+user_id INT NOT NULL AUTO_INCREMENT, PRIMARY KEY(user_id),
+email VARCHAR(60),
+password_hash VARCHAR(50),
+loc_id INT,
+FOREIGN KEY(loc_id) REFERENCES location04(loc_id));
+
+CREATE TABLE table04 (id INT NOT NULL AUTO_INCREMENT,PRIMARY KEY( id ),
+	    type VARCHAR(20),
+	    brand VARCHAR(30),
+	    cond VARCHAR(20),
+	    drweight VARCHAR(30),
+	    drlength VARCHAR(20),
+	    price VARCHAR(30),
+	    descript VARCHAR(100),
+		loc_id INT,
+		user_id INT,
+		FOREIGN KEY(user_id) REFERENCES users(user_id),
+		FOREIGN KEY(loc_id) REFERENCES locations(location_id));
+		
+		
+SESSIONS:
+	session_start();
+	$_SESSION["userID"] = "Liv";
+	$_SESSION["expire"] = time() + 10;
+	echo '<pre>' . print_r($_SESSION, TRUE) . '</pre>'; //displays all vars in session
+	unset($_SESSION["MyIndex"]); //unset a specific index
+	session_destroy(); //leave the page = vars are gone. Aren't really gone until you load next page.
+	
+	//check to see if the session should expire
+	if($_SESSION["expire"] < time())
+		session unset();
+			
+LOGIN:
+	require_once("LWIP_function.php");
+	
+INSERT INTO table04 VALUES(null,'test','test','test','test','test','test','test',1,7);
+	

@@ -1,0 +1,15 @@
+[19-Sep-2014 20:09:13 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student01/table01a_create.php on line 43
+[19-Sep-2014 20:12:13 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student01/table01a_create.php on line 43
+[02-Oct-2014 14:13:34 UTC] PHP Fatal error:  Call to undefined function deleteRecord() in /home/gcorser/public_html/student01/table14b.php on line 91
+[02-Oct-2014 14:13:49 UTC] PHP Fatal error:  Call to undefined function updateProcess() in /home/gcorser/public_html/student01/table14b.php on line 95
+[02-Oct-2014 14:14:03 UTC] PHP Fatal error:  Call to undefined function deleteRecord() in /home/gcorser/public_html/student01/table14b.php on line 91
+[04-Oct-2014 13:59:40 UTC] PHP Fatal error:  Call to undefined function createTable() in /home/gcorser/public_html/student01/table14d.php on line 53
+[04-Oct-2014 14:21:56 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student01/table14d.php on line 184
+[21-Oct-2014 00:16:18 UTC] PHP Fatal error:  Call to undefined function checkConnect() in /home/gcorser/public_html/student01/table01.php on line 63
+[30-Oct-2014 13:25:40 UTC] PHP Fatal error:  Call to a member function stmt_init() on a non-object in /home/gcorser/public_html/student01/table01.php on line 327
+[30-Oct-2014 13:33:37 UTC] PHP Fatal error:  Call to a member function stmt_init() on a non-object in /home/gcorser/public_html/student01/table01.php on line 327
+[30-Oct-2014 13:33:44 UTC] PHP Fatal error:  Call to a member function stmt_init() on a non-object in /home/gcorser/public_html/student01/table01.php on line 327
+[30-Oct-2014 13:35:38 UTC] PHP Fatal error:  Call to a member function stmt_init() on a non-object in /home/gcorser/public_html/student01/table01.php on line 327
+[30-Oct-2014 13:35:43 UTC] PHP Fatal error:  Call to a member function stmt_init() on a non-object in /home/gcorser/public_html/student01/table01.php on line 327
+[30-Oct-2014 13:35:50 UTC] PHP Fatal error:  Call to a member function stmt_init() on a non-object in /home/gcorser/public_html/student01/table01.php on line 327
+[30-Oct-2014 13:36:09 UTC] PHP Fatal error:  Call to a member function stmt_init() on a non-object in /home/gcorser/public_html/student01/table01.php on line 327

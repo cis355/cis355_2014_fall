@@ -1,0 +1,7 @@
+This is Erik Andersson's biography page!, and yes my name is Erik Andersson!
+I am a student at Saginaw Valley University and am pursuing a major in Computer Science.
+I would say video games are a big hobby of mine so I figured why not make a page on
+what other people have paid for their video games!
+
+This page has caused some problems at some points, but I went over some code with the professor
+of the course - George Corser, and problems got solved!

@@ -1,0 +1,37 @@
+domain name: omarcham355.com
+
+host: localhost
+
+username: omarcham
+
+password: cis355omarcham
+
+database: petsaver
+
+CREATE TABLE customer04 (id INT NOT NULL AUTO_INCREMENT,PRIMARY KEY( id ),
+		cust_id INT,
+	    cust_name VARCHAR(25),
+	    cust_loc VARCHAR(25),
+	    cust_email VARCHAR(25),
+	    pet_type VARCHAR(25),
+	    pet_breed VARCHAR(25),
+	    descript VARCHAR(200),
+		FOREIGN KEY(cust_id) REFERENCES userinfo04(user_id));
+
+CREATE TABLE seller04 (id INT NOT NULL AUTO_INCREMENT,PRIMARY KEY(id),
+	seller_id INT,
+	sell_name VARCHAR(25),
+	sell_loc VARCHAR(25),
+	sell_email VARCHAR(25),
+	pet_type VARCHAR(25),
+	pet_breed VARCHAR(25),
+	descript VARCHAR(300),
+	price VARCHAR(8),
+	home_visit_info VARCHAR(100),
+	FOREIGN KEY(seller_id) REFERENCES userinfo04(user_id));
+		
+CREATE TABLE userinfo04(user_id INT NOT NULL AUTO_INCREMENT, PRIMARY KEY(user_id),
+user_name VARCHAR(25),
+user_loc VARCHAR(25),
+user_email VARCHAR(25),
+user_password VARCHAR(15));

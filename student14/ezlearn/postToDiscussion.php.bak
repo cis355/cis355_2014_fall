@@ -1,0 +1,30 @@
+<?php
+
+	session_start();
+
+	include "functions.php";
+	
+	$heading = $_POST['heading'];
+	$title = $_POST['title'];
+	$message = $_POST['message'];
+	$datePosted = $_POST['datePosted'];
+	$stuId = $_SESSION['student_id']; 
+	
+	$mysqli = ConnectToDb("ezlearn");
+
+	$sql = "INSERT INTO discussions (heading, title, message, datePosted, student_id) VALUES(?, ?, ?, ?, ?)";
+	
+	$statement = $mysqli->stmt_init();
+	
+	if($statement = $mysqli->prepare($sql))
+	{
+		$statement->bind_param('ssssi', $heading, $title, $message, $datePosted, $stuId);
+		if($statement->execute())
+		{
+			$statement->close();
+		}
+	}
+	
+	header('Location: ' . $_SERVER['HTTP_REFERER']);
+	exit;
+?>

@@ -1,0 +1,10 @@
+DirectoryIndex index.php
+
+redirect /student11/table11.php http://www.cis355.com/student11/index.php
+
+
+# permanently redirect from www domain to non-www domain
+#RewriteEngine on
+#Options +FollowSymLinks
+#RewriteCond %{HTTP_HOST} ^www\.cis355.com\.tld$ [NC]
+#RewriteRule ^(.*)$ http://cis355.com.tld/$1 [R=301,L]

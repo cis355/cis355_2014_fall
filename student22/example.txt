@@ -1,0 +1,5 @@
+CREATE TABLE item22 (item_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, user_id INT NOT NULL, desc VARCHAR(50), FOREIGN KEY (user_id) REFERENCES (user22));
+
+INSERT INTO item01 (user_id, descr) VALUES (1, "one");
+
+INSERT INTO user22 (user_id) Values(NULL);

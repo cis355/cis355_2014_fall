@@ -1,0 +1,17 @@
+<?php
+	include "functions.php";
+	
+	if(isset($_POST['post']))
+	{
+		$assignText = $_POST['aText'];
+		$assignTit = $_POST['aTitle'];
+		$assignDate = $_POST['aDate'];
+		
+		$mysqli = ConnectToDb("ezlearn");
+		InsertAnnouncement($mysqli, $assignTit, $assignText, $assignDate);
+		
+		$mysqli->close();
+
+		header("Location: home.php");
+		exit;
+?>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Niklas M Andersson - Entry Form</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	</head>
+<body>
+<br>
+<div class="col-md-4">
+	<form name='basic' method='POST' action='table03.php' onSubmit='return validate();'>
+		<table class="table table-condensed" style="border: 1px solid #dddddd; border-radius: 5px; box-shadow: 2px 2px 10px;">
+			<tr><td colspan="2" style="text-align: center; border-radius: 5px; color: white; background-color:#333333;"><h2>Guitars</h2></td></tr>
+			
+			<tr><td>Category</td>
+			<td><select name="category">
+			<option></option>
+			<option>Acoustic</option>
+			<option>Electric</option>
+			<option>Electric-Acoustic</option>
+			</select></td></tr>
+			
+			<tr><td>Brand</td>
+			<td><select name="brand">
+			<option></option>
+			<option>Fender</option>
+			<option>Ibanez</option>
+			<option>Gibson</option>
+			<option>Schecter</option>
+			<option>Ephiphone</option>
+			<option>Dean</option>
+			<option>Gretsch</option>
+			<option>PRS</option>
+			<option>ESP</option>
+			<option>Martin</option>
+			</select></td></tr>
+			
+			<tr><td>Quality</td>
+			<td><select name="quality">
+			<option></option>
+			<option>New</option>
+			<option>Used</option>
+			<option>Worn</option>
+			<option>Blemished</option>
+			<option>Vintage</option>
+			</select></td></tr>
+			
+			<tr><td>Body Type</td>
+			<td><select name="bodytype">
+			<option></option>
+			<option>Solid</option>
+			<option>Hollow</option>
+			<option>Semi-Hollow</option>
+			</select></td></tr>
+			
+			<tr><td>Fretboard</td>
+			<td><select name="fretboard">
+			<option></option>
+			<option>Ebony</option>
+			<option>Rosewood</option>
+			<option>Maple</option>
+			</select></td></tr>
+			
+			<tr><td>Cutaway</td>
+			<td><select name="cutaway">
+			<option></option>
+			<option>Single</option>
+			<option>Double</option>
+			<option>None</option>
+			</select></td></tr>
+			
+			<tr><td>Price: </td><td><input type="edit" name="price" value="$" size="10"></td></tr>
+			<tr><td><input type="submit" name="submit" class="btn btn-success" value="Add Entry"></td>
+				<td style="text-align: right;"><input type="reset" class="btn btn-danger" value="Reset Form"></td></tr>
+		</table>
+		
+		<a href="table03.php" class="btn btn-primary">Display Database</a>
+	</form>
+</div>
+
+</body>
+</html>

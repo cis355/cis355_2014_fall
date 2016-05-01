@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+        <title>Kitty Haven Adoption</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	    </head>
+    <body>
+    <br>
+
+	<div class="col-md-4">
+	<form name="basic" method="POST" action="kha.php" onSubmit="return validate();">
+		<table class="table table-condensed" style="border: 1px solid #dddddd; border-radius: 5px; box-shadow: 2px 2px 10px;">
+			<tr><td colspan="2" style="text-align: center; border-radius: 5px; color: white; background-color:#333333;">
+			<h2>Kitty Haven Adoption Form</h2></td></tr>	 
+			<tr><td>Name:</td><td><input type="edit" name="kitty_name" value="" size="30"></td></tr>
+			<tr><td>Age:</td><td><input type="edit" name="kitty_age" value="" size="5"></td></tr>
+			<tr><td>Hair Length:</td>
+			<td><select input type="edit" name="kitty_hair_length">
+				<option>Short</option>
+				<option>Medium</option>
+				<option>Long</option>
+			</select></td></tr>
+			<tr><td>Gender:</td>
+			<td><select type="edit" name="kitty_gender">
+				<option>Male</option>
+				<option>Female</option>
+			</select></td></tr>
+			<tr><td>Breed:</td>
+			<td><select type="edit" name="kitty_breed">
+				<option>Abyssinian</option>
+				<option>American Bobtail</option>
+				<option>American Curl</option>
+				<option>American Shorthair</option>
+				<option>American Wirehair</option> 
+				<option>Balinese</option>
+				<option>Bengal</option>
+				<option>Birman</option>
+				<option>Bombay</option>
+				<option>British Shorthair</option>
+				<option>Burmese</option>
+				<option>Calico</option>
+				<option>Chartreux</option>
+				<option>Colorpoint Shorthair</option>
+				<option>Cornish Rex</option>
+				<option>Cymric</option>
+				<option>Devon Rex</option>
+				<option>Domestic Longhair</option>
+				<option>Domestic Mediumhair</option>
+				<option>Domestic Shorthair</option>
+				<option>Egyptian Mau</option>
+				<option>European Burmese</option>
+				<option>Exotic</option>
+				<option>Havana Brown</option>
+				<option>Hemingway/Polydactyl Himalayan</option>
+				<option>Japanese Bobtail</option>
+				<option>Javanese</option>
+				<option>Korat</option>
+				<option>LaPerm</option>
+				<option>Maine coon</option>
+				<option>Manx</option>
+				<option>Munchkin</option>
+				<option>Norwegian Forest Cat</option>
+				<option>Ocicat</option>
+				<option>Oriental</option>
+				<option>Persian</option>
+				<option>Polydactyl/Hemingway</option>
+				<option>RagaMuffin</option>
+				<option>Ragdoll</option>
+				<option>Russian Blue</option>
+				<option>Scottish Fold</option>
+				<option>Selkirk Rex</option>
+				<option>Siamese</option>
+				<option>Siberian</option>
+				<option>Singapura</option>
+				<option>Snowshoe</option>
+				<option>Somali</option>
+				<option>Sphynx</option>
+				<option>Tonkinese</option>
+				<option>Turkish Angora</option>
+				<option>Turkish Van</option>			
+			</select></td></tr>
+			<tr><td>Color:</td>
+			<td><select type="edit" name="kitty_color">
+				<option>Black</option>
+				<option>Black & White or Tuxedo</option>
+				<option>Brown Tabby</option>
+				<option>Brown or Chocolate</option>
+				<option>Calico or Dilute Calico</option>
+				<option>Cream or Ivory</option>
+				<option>Gray or Blue</option>
+				<option>Gray</option>
+				<option>Blue or Silver Tabby</option>
+				<option>Orange or Red</option>
+				<option>Orange or Red Tabby</option>
+				<option>Spotted Tabby/Leopard Spotted</option>
+				<option>Tabby</option>
+				<option>Tan or Fawn</option>
+				<option>Tan or Fawn Tabby</option>
+				<option>Tiger Striped</option>
+				<option>Tortoiseshell</option>
+				<option>White</option>
+			</select></td></tr>
+			
+			<tr><td>Location: </td><td>
+			<select class='form-control' name = 'location_id' id='locations'>
+			
+		    <tr><td>User: </td><td><input type="text" name="user_id" value="'. $_SESSION["id"] .'" size="7" readonly></td></tr>
+			<tr><td><input type="submit" name="insertCompleted" class="btn btn-success" value="Add Entry"></td>
+			<td style="text-align: right;"><input type="reset" class="btn btn-danger" value="Reset Form"></td></tr>
+		</table><a href="kha.php" class="btn btn-primary">Display Database</a>
+	</form>
+</div>
+
+</body>
+</html>
+
+
+<td></td>

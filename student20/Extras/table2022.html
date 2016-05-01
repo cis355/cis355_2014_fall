@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>GW - Entry Form</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+	</head>
+
+<body>
+
+<br>
+
+<div class="col-md-4">
+
+	<form name='basic' method='POST' action='table20.php' onSubmit='return validate();'>
+
+		<table class="table table-condensed" style="border: 1px solid #dddddd; border-radius: 5px; box-shadow: 2px 2px 10px;">
+
+			<tr><td colspan="2" style="text-align: center; border-radius: 5px; color: white; background-color:#333333;"><h2>RV</h2></td></tr>
+
+			<tr><td>Item Name</td><td><input type="edit" name="item_name" value="" size="30"></td></tr>
+
+			<tr><td>Manufacturer</td><td><input type="edit" name="manufacturer" value="" size="20"></td></tr>
+
+			<tr><td>Year</td><td><input type="edit" name="year" value="" size="5"></td></tr>
+
+			<tr><td>Class Type </td>
+
+			<td><select name="class_type">
+
+			<option value="class_a">Class A</option>
+
+			<option value="class_b">Class B</option>
+
+			<option value="class_c">Class C</option>
+
+			<option value="class_d">Class D</option>
+
+			</select></td></tr>
+
+			<tr><td>Condition </td>
+
+			<td><select name="condition">
+
+			<option value="excellent">Excellent</option>
+
+			<option value="good">Good</option>
+
+			<option value="average">Average</option>
+
+			<option value="poor">Poor</option>
+
+			<option value="very_poor">Very Poor</option>
+
+			</select></td></tr>
+
+			<tr><td>Engine Type</td>
+
+			<td><select name="engine_type">
+
+			<option value="gas">Gasoline</option>
+
+			<option value="diesel">Diesel</option>
+
+			<option value="t_diesel">Turbo Diesel</option>
+
+			</select></td></tr>
+
+			<tr><td>Color</td><td><input type="edit" name="color" value="" size="20"></td></tr>
+
+			<tr><td>Amount Paid $</td><td><input type="edit" name="amt_paid" value="" size="10"></td></tr>
+
+			<tr><td>Description: </td><td><textarea style="resize: none;" name="descript" cols="40" rows="3"></textarea></td></tr>
+
+			<tr><td><input type="submit" name="submit" class="btn btn-success" value="Add Entry"></td>
+
+			<td style="text-align: right;"><input type="reset" class="btn btn-danger" value="Reset Form"></td></tr>
+
+		</table>
+
+		
+
+		<a href="table20.php" class="btn btn-primary">Display Database</a>
+
+	</form>
+
+</div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+[18-Sep-2014 14:04:54 UTC] PHP Fatal error:  Call to undefined function showFormBtn() in /home/gcorser/public_html/student22/brett_test.php on line 50
+[18-Sep-2014 14:05:59 UTC] PHP Fatal error:  Call to undefined function showFormBtn() in /home/gcorser/public_html/student22/brett_test.php on line 50
+[18-Sep-2014 14:06:05 UTC] PHP Fatal error:  Call to undefined function showFormBtn() in /home/gcorser/public_html/student22/brett_test.php on line 50
+[18-Sep-2014 14:06:08 UTC] PHP Fatal error:  Call to undefined function showFormBtn() in /home/gcorser/public_html/student22/brett_test.php on line 50
+[30-Oct-2014 13:32:49 UTC] PHP Fatal error:  Call to undefined function grabLocation() in /home/gcorser/public_html/student22/table22.php on line 280

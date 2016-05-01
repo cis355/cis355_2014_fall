@@ -1,0 +1,9 @@
+[02-Oct-2014 12:43:34 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student18/table14b.php on line 27
+[02-Oct-2014 12:46:37 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student18/table18b.php on line 27
+[02-Oct-2014 12:50:42 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student18/table18b.php on line 27
+[30-Oct-2014 12:34:16 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student18/table18.php on line 216
+[30-Oct-2014 12:41:56 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student18/table18.php on line 216
+[06-Nov-2014 13:35:23 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student18/table18.php on line 306
+[06-Nov-2014 13:51:37 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student18/table18.php on line 305
+[06-Nov-2014 13:56:58 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student18/table18.php on line 305
+[25-Nov-2014 15:05:41 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student18/project.php on line 221

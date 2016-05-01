@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* reset browser styles */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+
+time, mark, audio, video {
+
+	margin: 0;
+
+	padding: 0;
+
+	border: 0;
+
+	font-size: 100%;
+
+	vertical-align: baseline;
+
+}
+
+
+
+body {line-height: 1.2;}
+
+ol { padding-left: 1.4em;list-style: decimal;}
+
+ul {padding-left: 1.4em;list-style: square;}
+
+table {border-collapse: collapse;border-spacing: 0;}
+
+
+
+/* end reset browser styles */
+
+	@charset "utf-8";
+
+/* main.css */
+
+/* reset browser styles */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+body {line-height: 1.2; font-family:Verdana, Arial, Helvetica, sans-serif;font-size:.9em }
+ol { padding-left: 1.4em;list-style: decimal;}
+ul {padding-left: 1.4em;list-style: square;}
+table {border-collapse: collapse;border-spacing: 0;}
+/* end reset browser styles */
+
+/* main header for all pages */
+
+a{text-decoration: none;}
+#header {width: 100%; height:80px; background-color: tan; 
+border-bottom: 2px solid black; box-shadow: 3px 3px 5px #888888;}
+#header img {float:left; padding-right:40px}
+#header h2 {float:left; font-size:2.0em; color:#000; padding:20px;margin-top:3px;}
+#header div {float:right; margin-right:30px; margin-top:25px}
+
+input[type=text] {width:90px; padding:5px; border:2px solid #ccc; 
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+
+input[type=password] {width:90px; padding:5px; border:2px solid #ccc; 
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+
+button{padding:5px; border:2px solid #090; color:#FFFFFF;
+-webkit-border-radius: 5px;
+border-radius: 5px; background-color:#393;
+box-shadow:2px 2px 3px 1px #060 inset; 
+}
+
+button:hover
+{
+	box-shadow:2px 2px 3px 1px #030 inset;
+	background-color:#666;
+	box-shadow:2px 2px 3px 1px #333 inset;
+	border:2px solid #999;	
+	cursor:pointer;
+}
+
+/* main header for database */
+
+#database_main {width:96%; margin: 0 auto; margin-top:10px; margin-bottom:20px; box-shadow: 3px 3px 5px #888888;}
+#datbase_header {height:75px; background-color:#333}
+#datbase_header h2 {font-size:2.0em; color:white; padding-left: 40px; padding-top:20px; padding-bottom:20px;}
+
+.selectionBox {position:relative; top:25px; width:25px; height:25px; width:25px; background-color:#666; color:#FFF;}
+
+.selectionBox a{color:#FFFFFF; display: block; width: 150px; height:auto;}
+.selectionBox ul 
+{  width:150px; position:relative; z-index:10; top:-5px; left:0px; list-style: none; 
+   padding: 10px; border: 2px solid #333; background-color:#FFFFFF;
+}
+
+#selectionBoxLeft {float:left; left:25px;} 
+#selectionBoxLeft ul 
+{
+    display: none;
+	overflow:hidden;	
+	float:left;
+}
+
+#selectionBoxRight {float:right; right:25px;}
+#selectionBoxRight ul {
+    display: none;
+	overflow:hidden;
+	float:right;
+}
+
+.selectionBox ul li{width:130px; margin-top:2px; padding: 5px 10px 4px 10px; color: #FFF; background: #333;}
+
+.selectionBox:hover {cursor:pointer}
+#selectionBoxLeft:hover ul {display:block;}
+#selectionBoxRight:hover ul {display:block;}
+.selectionBox ul li:hover{background: #066;}
+
+#userHeader {float:left; margin-left:45px; margin-top:27px; color:#CCC}
+#locHeader {float:right; margin-right:45px; margin-top:27px; color:#CCC}
+ 
+#searchBox 
+{
+	float:right; position:relative; z-index:5; margin-top:21px; margin-right:45px; list-style: none; padding:5px; border:2px solid #090; 
+	-webkit-border-radius: 5px;
+border-radius: 5px; background-color:#393;
+box-shadow:2px 2px 3px 1px #060 inset;
+}
+
+#searchBox a{color:#FFFFFF;}
+
+#searchBox:hover
+{
+	box-shadow:2px 2px 3px 1px #030 inset;
+	background-color:#666;
+	box-shadow:2px 2px 3px 1px #333 inset;
+	border:2px solid #999;	
+	cursor:pointer;
+}
+
+#searchBox a:hover{background-color:#666}
+
+#datbase_header input[type=text] {position:relative; z-index:0; float:right; margin-top:22px; margin-right:-10px; width:150px;}
+
+
+/**********************************************************************************************************/
+
+
+
+#databaseTable  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    padding-top: 5px; padding-bottom: 5px; padding-left: 20px;font-size:1.1em ;
+}
+
+td {
+    padding-top: 5px; padding-bottom: 5px;padding-left: 15px; padding-right:10px;
+}
+
+.viewRow {display:none;}
+.viewRow div {padding-left:20px}
+
+#databaseTable tr:nth-child(even) {
+    background-color: #eee;
+}
+#databaseTable tr:nth-child(odd) {
+   background-color:#fff;
+}
+#databaseTable th	{
+    background-color:#5F5F5F;
+    color: white;
+	border-bottom: 2px solid rgb(255,255,255);
+}
+
+#databaseTable th div{width:100%; border-right: 1px solid rgb(153,153,153);margin-right:20px; text-align: left;}
+
+/***************************************************************************************/
+
+#database_navbar {height:20px}
+#database_navbar ul {padding: 0; list-style-type: none;}
+#database_navbar li {display: inline;background-color:#FFFFFF;}
+
+#database_navbar a {
+	padding-left: 10px; padding-right: 10px;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size: 0.7em;
+	border-right: 1px solid rgb(153,153,153);
+	
+}
+
+#database_navbar a:link{color:#000}
+#database_navbar a:visited{color:#000}
+#database_navbar a:hover{color:#666666}
+#database_navbar a:active{color:#666666}
+
+/**********************************************************************************************************/
+#addButton {width:96%; margin:0 auto;}
+#addButton div{width:100px; height:25px;background-color:#333; border:2px solid #999; padding-top:5px}
+
+#addButton a{
+	padding-left: 20px; padding-right: 10px;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size: 0.8em;
+	}
+	
+#addButton a:link{color:#CCC}
+#addButton a:visited{color:#FFF}
+#addButton a:hover{color:#FC0}
+#addButton a:active{color:#FC0}
+
+#mes {margin-top:20px}
+div h3 {color:#000000};
+
+
+

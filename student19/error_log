@@ -1,0 +1,23 @@
+[30-Sep-2014 19:04:06 UTC] PHP Fatal error:  Call to undefined function op_end_clean() in /home/gcorser/public_html/student19/table_Ex2.php on line 69
+[02-Oct-2014 12:36:35 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student19/table_Ex2.php on line 34
+[02-Oct-2014 12:37:27 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student19/table_Ex2.php on line 34
+[02-Oct-2014 12:41:12 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student19/table_Ex2.php on line 179
+[02-Oct-2014 12:43:17 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student19/table_Ex2.php on line 179
+[02-Oct-2014 12:45:02 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/gcorser/public_html/student19/table_Ex2.php on line 204
+[02-Oct-2014 12:48:23 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student19/table_Ex2.php on line 179
+[02-Oct-2014 12:54:29 UTC] PHP Fatal error:  Call to undefined method mysqli::fetch_row() in /home/gcorser/public_html/student19/table_Ex2.php on line 179
+[02-Oct-2014 12:59:18 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student19/table_Ex2.php on line 179
+[02-Oct-2014 12:59:55 UTC] PHP Fatal error:  Call to undefined method mysqli::fetch_row() in /home/gcorser/public_html/student19/table_Ex2.php on line 179
+[02-Oct-2014 13:11:32 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/gcorser/public_html/student19/table_Ex2.php on line 204
+[02-Oct-2014 13:18:01 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student19/table_Ex2.php on line 179
+[02-Oct-2014 13:25:06 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student19/table_Ex2.php on line 179
+[02-Oct-2014 13:36:35 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student19/table_Ex2.php on line 179
+[02-Oct-2014 13:39:27 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student19/table_Ex2.php on line 179
+[02-Oct-2014 13:54:44 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/gcorser/public_html/student19/table_Ex2.php on line 204
+[02-Oct-2014 13:59:47 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student19/table_Ex2.php on line 179
+[02-Oct-2014 14:00:17 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student19/table_Ex2.php on line 179
+[02-Oct-2014 14:04:24 UTC] PHP Fatal error:  Call to undefined function close() in /home/gcorser/public_html/student19/table_Ex2.php on line 196
+[06-Oct-2014 23:46:13 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student19/table_Ex2.php on line 272
+[07-Oct-2014 14:06:33 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student19/table19.php on line 183
+[04-Nov-2014 17:12:29 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student19/table19.php on line 314
+[04-Nov-2014 17:14:37 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student19/table19.php on line 318

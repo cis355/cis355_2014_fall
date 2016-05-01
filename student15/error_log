@@ -1,0 +1,45 @@
+[18-Sep-2014 12:46:27 UTC] PHP Fatal error:  Call to undefined method mysqli::execute() in /home/gcorser/public_html/student15/lesson02.php on line 329
+[19-Sep-2014 14:54:04 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::fetchAll() in /home/gcorser/public_html/student15/table15.php on line 69
+[22-Sep-2014 22:03:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lwip.table15' doesn't exist' in /home/gcorser/public_html/student15/table15.php:52
+Stack trace:
+#0 /home/gcorser/public_html/student15/table15.php(52): PDOStatement->execute()
+#1 /home/gcorser/public_html/student15/table15.php(279): getAllData(Object(PDO))
+#2 {main}
+  thrown in /home/gcorser/public_html/student15/table15.php on line 52
+[22-Sep-2014 23:06:06 UTC] PHP Fatal error:  Call to undefined function deleteRecord() in /home/gcorser/public_html/student15/table15.php on line 283
+[24-Sep-2014 01:56:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lwip.table15' doesn't exist' in /home/gcorser/public_html/student15/table15.php:197
+Stack trace:
+#0 /home/gcorser/public_html/student15/table15.php(197): PDOStatement->execute()
+#1 /home/gcorser/public_html/student15/table15.php(310): insertRecord(Object(PDO))
+#2 {main}
+  thrown in /home/gcorser/public_html/student15/table15.php on line 197
+[24-Sep-2014 02:20:02 UTC] PHP Fatal error:  Call to undefined function getAllData() in /home/gcorser/public_html/student15/table15.php on line 378
+[02-Oct-2014 12:46:01 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/gcorser/public_html/student15/table15.php on line 390
+[19-Oct-2014 19:06:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'condition VARCHAR(20),
+                                           type VARCHAR(2' at line 6' in /home/gcorser/public_html/student15/table15.php:350
+Stack trace:
+#0 /home/gcorser/public_html/student15/table15.php(350): PDOStatement->execute()
+#1 /home/gcorser/public_html/student15/table15.php(71): createTable(Object(PDO))
+#2 {main}
+  thrown in /home/gcorser/public_html/student15/table15.php on line 350
+[19-Oct-2014 19:14:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'condition VARCHAR(20),
+                                           type VARCHAR(2' at line 6' in /home/gcorser/public_html/student15/table15.php:350
+Stack trace:
+#0 /home/gcorser/public_html/student15/table15.php(350): PDOStatement->execute()
+#1 /home/gcorser/public_html/student15/table15.php(71): createTable(Object(PDO))
+#2 {main}
+  thrown in /home/gcorser/public_html/student15/table15.php on line 350
+[19-Oct-2014 19:19:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'condition VARCHAR(20),
+                                           camera_type VA' at line 6' in /home/gcorser/public_html/student15/table15.php:350
+Stack trace:
+#0 /home/gcorser/public_html/student15/table15.php(350): PDOStatement->execute()
+#1 /home/gcorser/public_html/student15/table15.php(71): createTable(Object(PDO))
+#2 {main}
+  thrown in /home/gcorser/public_html/student15/table15.php on line 350
+[19-Oct-2014 19:21:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1005 Can't create table 'lwip.table15' (errno: 150)' in /home/gcorser/public_html/student15/table15.php:350
+Stack trace:
+#0 /home/gcorser/public_html/student15/table15.php(350): PDOStatement->execute()
+#1 /home/gcorser/public_html/student15/table15.php(71): createTable(Object(PDO))
+#2 {main}
+  thrown in /home/gcorser/public_html/student15/table15.php on line 350
+[30-Oct-2014 13:45:03 UTC] PHP Fatal error:  Call to undefined function selectLocations() in /home/gcorser/public_html/student15/table15_entry_form.php on line 12

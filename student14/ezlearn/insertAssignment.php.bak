@@ -1,0 +1,40 @@
+<?php
+	include "functions.php";
+	
+	$heading = $_POST["formHeading"];
+	$title = $_POST["formTitle"];
+	$text = $_POST["formText"];
+	$dateDue = $_POST["formDue"];
+	$datePosted = $_POST["formPosted"];
+	$points = $_POST["formPoints"];
+	
+	$mysqli = ConnectToDb("ezlearn");
+	$mysqli2 = ConnectToDb("ezlearn");
+	
+	InsertAssignment($mysqli, $heading, $title, $text, $dateDue, $datePosted, $points);
+	
+	$mysqli->close();
+	
+	$result = GetRecords($mysqli2, "COUNT(s.student_id), s.student_id, a.assignment_id", "zmm_students s, zmm_assignments a WHERE a.heading = '" . $heading . "' AND a.title = '" . $title . "'");
+	
+	$row = $result->fetch_row();
+	
+	$sql = "INSERT INTO zmm_grades VALUES ";
+	
+	for($i = 0; $i < $row[0]; $i++)
+	{	
+		$sql .= "(" . $row[1] . ", " . $row[2] . ", NULL)";
+		if($i != ($row[0]-1))
+		{
+			$sql .= ", ";
+		}
+	}
+	
+	echo $mysqli2->query($sql);
+	
+	
+	$mysqli2->close();
+	
+	header("Location: assignments.php");
+	
+?>

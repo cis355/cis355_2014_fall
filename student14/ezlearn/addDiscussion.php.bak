@@ -1,0 +1,23 @@
+<?php
+
+	include "functions.php";
+	
+	$heading = $_POST['heading'];
+	$title = $_POST['title'];
+	
+	$sql = "INSERT INTO discussion_base VALUES(? ,?)";
+	
+	$mysqli = ConnectToDb("ezlearn");
+	
+	$statement = $mysqli->stmt_init();
+	
+	if($statement = $mysqli->prepare($sql))
+	{
+		$statement->bind_param('ss', $heading, $title);
+		$statement->execute();
+		$statement->close();
+	}
+	
+	header("Location: discussions.php");
+	exit;
+?>

@@ -1,0 +1,40 @@
+<!--
+ * Purpose: This file will;
+ *          ajax web service
+ *
+ * Author:  Kevin Stachowski
+ * Date:    10/09/2014
+ * Update:  10/09/2014
+ * Notes:   Lesson13 test
+ * 
+ -->
+ 
+<html>
+<head>
+<script>
+function showHint(str) {
+  if (str.length==0) {
+    document.getElementById("ajaxHint").innerHTML="";
+    return;
+  }
+  var xmlhttp=new XMLHttpRequest();
+  xmlhttp.onreadystatechange=function() {
+    if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+      document.getElementById("ajaxHint").innerHTML=xmlhttp.responseText;
+    }
+  }
+  xmlhttp.open("GET","gethint.php?food="+str,true);
+  xmlhttp.send();
+}
+</script>
+</head>
+<body>
+
+<p><b>Check for a food, type below:</b></p>
+<form>
+Food: <input type="text" onkeyup="showHint(this.value)">
+</form>
+<p>FoodXML: <br><span id="ajaxHint"></span></p>
+
+</body>
+</html>

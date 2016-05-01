@@ -1,0 +1,37 @@
+<?php
+	session_start();
+	$heading = $_POST['headingSubmit'];
+	$title = $_POST['titleSubmit'];
+	//$_POST[];
+	echo $heading . " ";
+	echo $title;
+	$filename = $_FILES["fileUpload"]["name"];
+	
+	$targetFile = "DATA/assignments/" . $heading . "/" . $title . "/" . $_SESSION['username'] . "/" . $filename;
+	
+	if( !is_dir("DATA/assignments") )
+	{
+		mkdir("DATA/assignments");
+	}
+	
+	if ( !is_dir("DATA/assignments/" . $heading) )
+	{
+		mkdir("DATA/assignments/" . $heading );
+	}
+	
+	if (!is_dir("DATA/assignments/" . $heading . "/" . $title) )
+	{
+		mkdir("DATA/assignments/" . $heading . "/" . $title);
+	}
+	
+	if (!is_dir("DATA/assignments/" . $heading . "/" . $title . "/" . $_SESSION['username']) )
+	{
+		mkdir("DATA/assignments/" . $heading . "/" . $title . "/" . $_SESSION['username']);
+	}
+	
+	
+	move_uploaded_file($_FILES["fileUpload"]["tmp_name"], $targetFile);
+	
+	//header("Location: assignments.php");
+	//exit;
+?>

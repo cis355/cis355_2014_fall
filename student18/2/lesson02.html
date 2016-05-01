@@ -1,0 +1,39 @@
+<!-- lesson02.html -->
+<!-- built using http://www.phpform.info -->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Lesson02 Form</title>
+</head>
+
+<body>
+
+<style>
+.robotext {font-weight: bold; font-size: 9pt; color: #999999; font-family: Arial, Helvetica, sans-serif; text-decoration: none}
+.robolink:link {font-weight: bold; font-size: 10pt; color: #999999; font-family: Arial, Helvetica, sans-serif; text-decoration: none}
+.robolink:hover {font-weight: bold; font-size: 9pt; color: #979653; font-family: Arial, Helvetica, sans-serif; text-decoration: underline}
+.robolink:visited {font-weight: bold; font-size: 9pt; color: #979653; font-family: Arial, Helvetica, sans-serif; text-decoration: none}
+</style>
+
+<script language="Javascript">
+function validate(){
+var allok = true;
+document.basic.Submit.disabled="disabled";
+return true;
+}
+</script>
+
+<form name="basic" method="Post" action="lesson02.php" onSubmit="return validate();">
+<table border="0" cellpadding="5" cellspacing="0">
+<tr><td>name</td><td><input type="edit" name="name" value="" size="20"></td></tr>
+<tr><td>descr</td><td><input type="edit" name="descr" value="" size="30"></td></tr>
+<tr><td align="center"><input type="reset" name="Reset" value="Reset"></td><td align="center"><input type="submit" name="Submit" value="Submit"></td></tr>
+<tr><td colspan=2 class=robotext><a href="http://www.phpform.info" class="robolink">HTML/PHP Form Generator</a> from ROBO Design Solutions</td></tr>
+</table>
+</form>
+
+</body>
+</html>

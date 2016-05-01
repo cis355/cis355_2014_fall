@@ -1,0 +1,11 @@
++----------------+------------------+------+-----+-------------------+-----------------------------+
+| Field          | Type             | Null | Key | Default           | Extra                       |
++----------------+------------------+------+-----+-------------------+-----------------------------+
+| id             | int(10) unsigned | NO   | PRI | NULL              | auto_increment              |
+| jewlery_type   | varchar(100)     | NO   |     | NULL              |                             |
+| quality        | varchar(40)      | NO   |     | NULL              |                             |
+| price_paid     | int(10) unsigned | YES  |     | NULL              |                             |
+| discount       | int(11)          | YES  |     | NULL              |                             |
+| date_purchased | timestamp        | NO   |     | CURRENT_TIMESTAMP | on update CURRENT_TIMESTAMP |
++----------------+------------------+------+-----+-------------------+-----------------------------+
+

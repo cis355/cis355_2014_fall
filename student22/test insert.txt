@@ -1,0 +1,22 @@
+INSERT INTO table22
+(
+boat_type, 
+brand,
+engine_type,
+horse_power,
+size,
+price,
+descript,
+user_id,
+location_id
+)
+VALUES
+("Test Boat",
+"Test Brand",
+"Engine Test",
+"horse Test",
+"12",
+"100",
+"DISCRPTION",
+294,
+1)

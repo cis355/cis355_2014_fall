@@ -1,0 +1,8 @@
+CREATE TABLE gpc_upload (
+    id        Int Not Null Auto_Increment,
+    name      VarChar(255) Not Null,
+    size      BigInt Unsigned Not Null,
+    type      VarChar(50),
+    content   MediumBlob Not Null,
+    PRIMARY KEY (id)
+)

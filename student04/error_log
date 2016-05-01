@@ -1,0 +1,25 @@
+[09-Sep-2014 13:44:07 UTC] PHP Fatal error:  Call to undefined function mysql_query1022() in /home/gcorser/public_html/student04/lesson01test.php on line 23
+[30-Sep-2014 13:48:07 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/gcorser/public_html/student04/table04a.php on line 214
+[07-Oct-2014 11:57:10 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/gcorser/public_html/student04/table04e.php on line 151
+[30-Oct-2014 13:08:55 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student04/table04.php on line 200
+[04-Nov-2014 13:38:23 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/gcorser/public_html/student04/table04.php on line 208
+[04-Nov-2014 14:49:49 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student04/table04.php on line 293
+[04-Nov-2014 14:56:37 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student04/table04.php on line 293
+[04-Nov-2014 15:00:03 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student04/table04.php on line 294
+[04-Nov-2014 15:06:51 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student04/table04.php on line 290
+[04-Nov-2014 15:11:46 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student04/table04.php on line 290
+[04-Nov-2014 15:17:00 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student04/table04.php on line 290
+[05-Nov-2014 23:41:53 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student04/table04.php on line 290
+[05-Nov-2014 23:42:06 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student04/table04.php on line 290
+[06-Nov-2014 13:32:13 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student04/table04.php on line 290
+[06-Nov-2014 13:42:41 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student04/table04.php on line 290
+[06-Nov-2014 13:43:30 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student04/table04.php on line 290
+[06-Nov-2014 13:45:11 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student04/table04.php on line 290
+[06-Nov-2014 13:49:57 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student04/table04.php on line 290
+[06-Nov-2014 13:57:09 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/gcorser/public_html/student04/table04.php on line 290
+[06-Nov-2014 15:16:14 UTC] PHP Fatal error:  Call to undefined method mysqli::fetch_row() in /home/gcorser/public_html/student04/table04.php on line 487
+[18-Nov-2014 14:38:13 UTC] PHP Fatal error:  Call to undefined function displayHTMLHead() in /home/gcorser/public_html/student04/buyers.php on line 76
+[25-Nov-2014 14:15:25 UTC] PHP Fatal error:  Call to undefined function updateRecord() in /home/gcorser/public_html/student04/buyers.php on line 102
+[29-Nov-2014 19:51:04 UTC] PHP Fatal error:  Call to undefined function viewRecords() in /home/gcorser/public_html/student04/buyers.php on line 114
+[30-Nov-2014 21:31:06 UTC] PHP Fatal error:  Call to undefined function viewRecords() in /home/gcorser/public_html/student04/sellers.php on line 116
+[02-Dec-2014 14:37:32 UTC] PHP Fatal error:  Call to undefined function showList() in /home/gcorser/public_html/student04/project.php on line 75

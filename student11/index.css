@@ -1,0 +1,31 @@
+.top-border{
+	background-color: #C4A883;
+	border-bottom: 2px solid black; 
+	box-shadow: 3px 3px 5px #888888;
+	min-height: 141px !important;
+	margin-bottom: 75px;
+}
+.ui-widget-content a{
+    color:#FFFFFF !important;
+	float:right ;
+
+}
+.top-border-user-content{
+	float:right;
+	margin-top: 90px;
+}
+.user_name{
+ /*	color:#FFA43E;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; */ 
+}
+.not_you_link{
+	text-shadow:none;
+}
+.login_prompt{
+	margin-top: 90px;
+	float:right;
+}
